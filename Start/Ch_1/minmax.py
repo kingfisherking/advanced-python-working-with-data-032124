@@ -22,7 +22,7 @@ strings = ["one", "three", "five", "seven", "eleven", "eighteen"]
 
 # TODO: open the data file and load the JSON
 with open("30DayQuakes.json", "r") as datafile:
-    data = json.load(datafile)
+    data = json.load(datafile) 
 
 print(len(data["features"]))
 def getmag(dataitem):
