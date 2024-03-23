@@ -30,4 +30,4 @@ def getmag(dataitem):
     if magnitude is None:
         magnitude = 0
     return(float(magnitude))
-print("The biggest magnitude was:", max(data["features"], key=getmag))
+#print("The biggest magnitude was:", max(data["features"], key=getmag))
