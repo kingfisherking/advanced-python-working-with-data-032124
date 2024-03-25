@@ -45,6 +45,6 @@ print("# felt by at least 100:", sum(
 print("most felt:",simplify2(max(data["features"], key=getfelt)))
 data["features"].sort(key=getsig, reverse=True)
 for x in range(10):
-    print(x+1,
+    print(str(x+1)+":",
           simplify2(data["features"][x])["location"],
           simplify2(data["features"][x])["significance"])
